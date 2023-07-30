@@ -1,0 +1,80 @@
+
+1. Equivalence Partitioning / Boundary Value Analysis – Age Checker 
+
+====0====13====20====65===150====
+
+
+-1   =>  error
+0    =>  child
+1    =>  child
+12   =>  child
+13   =>  teenager
+14   =>  teenager
+19   =>  teenager
+20   =>  adult
+21   =>  adult
+64   =>  adult
+65   =>  adult
+66   =>  elder 
+149  =>  elder
+150  =>  elder (not specified if inclusive or exclusive)
+151  =>  error
+
+64.99999999999 
+
+
+
+
+
+2. Equivalence Partitioning / Boundary Value Analysis 
+
+=== 9:30 am === 4:00 pm === 7:30 pm ===  
+
+9:20 am => full fare
+9:30 am => saver (unclear)
+9:40 am => saver
+3:50 pm => saver
+4:00 pm => saver (unclear)
+4:10 pm => full fare
+7:20 pm => full fare
+7:30 pm => full fare (unclear)
+7:40 pm => saver
+
+
+Unclear:
+    What happens at 00:00 ? Are the tickets from 00:00 am till 9:20 am full fare? 
+    What is the step between full fare and reduced in minutes?
+    Are 9:30, 4:00 and 7:20 included?
+    Does it matter what day of the week is it?
+
+
+
+
+
+3. Simplest Decision Table
+
+	Membership	    Booking
+1	    Yes	         online     => Y
+2	    Yes	         call       => Y
+3	    No	         online     => N
+4	    No	         call       => Y
+
+Unclear:
+        Is it possible to book a class both ways if you are a member?
+
+
+
+
+4. Decision Table 
+
+	Card	        travel
+1	over 60s	    alone           => 34%
+2	over 60s	    with a child    => 34%+10%=44%
+3	family	        with a child    => 50%
+4	family	        alone           => ?%
+5	no card	        alone           => 0%
+6	no card	        with a child    => 10%
+
+Unclear:
+        Is it possible to have 2 disounts at the same time?
+        Does the family card without child give any discount?
