@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "f9ee4cc9-ac99-47be-aba7-3d32f01380f0",
+		"name": "RestCountries_GETs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20079778",
+		"_collection_link": "https://blue-station-309787.postman.co/workspace/SofiUniQAFundamentalsJune2023~4d19af7d-98e9-413a-9be4-834e44c8e384/collection/20079778-f9ee4cc9-ac99-47be-aba7-3d32f01380f0?action=share&creator=20079778&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "https://restcountries.com/v3.1/alpha/co",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/alpha/co",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"alpha",
+						"co"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://restcountries.com/v2/name/Bulgaria/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v2/name/Bulgaria/",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v2",
+						"name",
+						"Bulgaria",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

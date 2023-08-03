@@ -1,0 +1,12 @@
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\bin\Debug\net5.0\TaskBoard.Data.deps.json
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\bin\Debug\net5.0\TaskBoard.Data.dll
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\bin\Debug\net5.0\TaskBoard.Data.pdb
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.csproj.AssemblyReference.cache
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.AssemblyInfoInputs.cache
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.AssemblyInfo.cs
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.csproj.CoreCompileInputs.cache
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.dll
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\refint\TaskBoard.Data.dll
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\TaskBoard.Data.pdb
+D:\SOFTWARE\_SoftUni-QA\02_QA Fundamentals and Manual Testing - June_2023\13_Exercise Databases\TaskBoard\TaskBoard\TaskBoard.Data\obj\Debug\net5.0\ref\TaskBoard.Data.dll

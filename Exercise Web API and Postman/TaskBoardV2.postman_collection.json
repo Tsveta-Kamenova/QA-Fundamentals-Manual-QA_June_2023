@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "a0a624f4-a238-4882-b37b-a5f1ad546cc5",
+		"name": "TaskBoardV2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20079778",
+		"_collection_link": "https://blue-station-309787.postman.co/workspace/SofiUniQAFundamentalsJune2023~4d19af7d-98e9-413a-9be4-834e44c8e384/collection/20079778-a0a624f4-a238-4882-b37b-a5f1ad546cc5?action=share&creator=20079778&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--tsvetakamenova.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--tsvetakamenova",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--tsvetakamenova.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--tsvetakamenova",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update task",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\"title\":\"changed title\", \"board\":\"Done\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--tsvetakamenova.repl.co/api/tasks/8",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--tsvetakamenova",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete task",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--tsvetakamenova.repl.co/api/tasks/8",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--tsvetakamenova",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
